@@ -1,0 +1,19 @@
+{
+  "name": "halaqati",
+  "version": "1.1.0",
+  "private": true,
+  "description": "حلقتي - تطبيق إدارة حلقات تحفيظ القرآن الكريم",
+  "scripts": {
+    "prepare:www": "node scripts/prepare-www.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.0.0"
+  }
+}
